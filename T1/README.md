@@ -11,11 +11,11 @@
 # General Notes: 
 1. The code should be committed to GitHub  
 2. The code should include  a batch/shell file that:  
-	2.1-Compile the source  
-	2.2- Execute the code with n=5 
-	2.3- Execute the code with n=20 
-	2.4- Execute the code with n=100 
-	2.5- Execute the code with n=1000 
+	2.1- Compile the source   
+	2.2- Execute the code with n=5  
+	2.3- Execute the code with n=20    
+	2.4- Execute the code with n=100   
+	2.5- Execute the code with n=1000   
 	
 
 
