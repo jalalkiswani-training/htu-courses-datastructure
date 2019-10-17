@@ -34,9 +34,8 @@ public class Task1 {
 
 	///////////////////////////////////////////////////////////////////////
 	private static int[][] createArray(int n) {
-		int arr[][] = new int[n][];
-		for (int rowIndex = 0; rowIndex < n; rowIndex++) {
-			arr[rowIndex] = new int[n];
+		int arr[][] = new int[n][n];
+		for (int rowIndex = 0; rowIndex < n; rowIndex++) {			
 			for (int cellIndex = 0; cellIndex < n; cellIndex++) {
 				arr[rowIndex][cellIndex] = createRandomeValue();
 			}
