@@ -9,7 +9,7 @@ public class Task1 {
 		Instant before = Instant.now();
 
 		for (int i = 0; i < 3; i++) {
-			int arr[][] = createArray(size);
+			int arr[][] = createArrayWithRandomNumbers(size);
 			double avg = calcuateArrayAverage(arr);
 			printArray(arr, avg);
 		}
@@ -33,7 +33,7 @@ public class Task1 {
 	}
 
 	///////////////////////////////////////////////////////////////////////
-	private static int[][] createArray(int n) {
+	private static int[][] createArrayWithRandomNumbers(int n) {
 		int arr[][] = new int[n][n];
 		for (int rowIndex = 0; rowIndex < n; rowIndex++) {			
 			for (int cellIndex = 0; cellIndex < n; cellIndex++) {
